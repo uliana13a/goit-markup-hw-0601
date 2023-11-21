@@ -10,8 +10,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--primary-link-color);
+    background-color: var(--second-color);
 }
 
 h1,
@@ -224,6 +224,26 @@ flex-direction: column;
 align-items: flex-start;
 gap: 24px;
 margin-bottom: 48px;
+}
+
+.mobile-menu-contact-link-blue {
+color: var(--accent-color);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.4px;
+}
+
+.mobile-menu-contact-link {
+    color: var(--primary-link-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 
 .icon-social-list {
